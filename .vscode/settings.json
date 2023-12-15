@@ -1,4 +1,20 @@
 {
-    "ros.distro": "humble",
-    "python.defaultInterpreterPath": "/home/eugenio/miniconda3/envs/django-tutorial/bin/python"
+    "python.defaultInterpreterPath": "/home/eugenio/miniconda3/envs/django-tutorial/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true, 
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+
+    "workbench.colorTheme": "VSCode Blender Nokto Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "markdown-preview-enhanced.previewTheme": "vue.css",
+
+    "dateTime.showAMPM": true,
+    "dateTime.use24HourClock": false,
+    "editor.inlineSuggest.enabled": true,
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    
 }

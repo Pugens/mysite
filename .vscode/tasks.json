@@ -4,15 +4,24 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "conda activate",
             "type": "shell",
-            "command": "echo Hello",
+            "command": "bash scripts/.conda_profile",
             "problemMatcher": []
         },
         {
-            "label": "Install package",
+            "label": "write req",
             "type": "shell",
-            "command": "conda activate django-tutorial && pip list --format=freeze > requirements.txt"
-        }
+            "command": "pip list --format=freeze > requirements.txt",
+            "dependsOn": "conda activate",
+            "problemMatcher": []
+        },
+        {
+            "label": "run server",
+            "type": "shell",
+            "command": "python3 manage.py runserver",
+            "dependsOn": "conda activate",
+            "problemMatcher": []
+        },
     ]
 }
