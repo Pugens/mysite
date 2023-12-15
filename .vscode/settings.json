@@ -1,3 +1,4 @@
 {
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "python.defaultInterpreterPath": "/home/eugenio/miniconda3/envs/django-tutorial/bin/python",
 }
