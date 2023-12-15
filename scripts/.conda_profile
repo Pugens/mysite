@@ -15,4 +15,16 @@ unset __conda_setup
 
 conda activate django-tutorial
 
-conda list
+python manage.py runserver
+
+# Change your models (in models.py) and run python manage.py makemigrations to create migrations for those changes
+# python manage.py makemigrations polls
+
+# Check generated SQL
+# python manage.py sqlmigrate polls 0001
+
+# Run python manage.py migrate to apply those changes to the database.
+# python manage.py migrate
+
+# Invoke the python shell and play around with the free API Django
+# python manage.py shell

@@ -19,7 +19,7 @@
         {
             "label": "run server",
             "type": "shell",
-            "command": "python manage.py runserver",
+            "command": "python3 manage.py runserver",
             "dependsOn": "conda activate",
             "problemMatcher": []
         },
