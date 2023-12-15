@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"  # TODO: change to local NL time zone
+TIME_ZONE = "Europe/Amsterdam"  # TODO: change to local NL time zone
 
 USE_I18N = True
 
